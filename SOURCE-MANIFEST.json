@@ -1,0 +1,173 @@
+{
+  "source": "VMware Windows 10 x64 / M:/devspace",
+  "upstream": "https://github.com/Waishnav/devspace.git",
+  "upstreamHead": "8cd2fba227454514f3ce8ef4848012753103e773",
+  "snapshotAt": "2026-10-30T04:09:00.279Z",
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 170,
+      "sha256": "ef5cda5c163484c9bea97098d04a9a95885990ff2d090a80c40074878af24e93"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 41,
+      "sha256": "b4ee2d84f5af5ace78d52c2f1bdc1d9d73988caf2661056ed1ee383ac2b9a288"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 216,
+      "sha256": "854b22368b1203ac4052d6ba457f445454d253096e3ee5f8ff6e966f81c21400"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1767,
+      "sha256": "bdae6870e31542e337d9aa3762079f9f2392b952229326ece4723e0671fc66a6"
+    },
+    {
+      "path": "launch-devspace-window.ps1",
+      "bytes": 2283,
+      "sha256": "99a301ea84adefda1f9586aa6a20cef654cf8ac6edbaafbac44d94546d56c783"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1065,
+      "sha256": "3705e933af4cee51484c4732a0c92b4384c6753b385f049c74324cbdf5d6ebb8"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 134885,
+      "sha256": "0c7eaaac74ed0b8c7f8d74cf84e28d5baece3d19fe48ebcbd3367467176a0ead"
+    },
+    {
+      "path": "package.json",
+      "bytes": 953,
+      "sha256": "24ac67962bf5e8b59a046810890a744997d01cad389bede6deca4f94b20faf1d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 319,
+      "sha256": "d80bd072407a8b0206628a12e0f19969ca98f8ad1aaef269d99ee8b47f8ebdd7"
+    },
+    {
+      "path": "start-devspace-public.bat",
+      "bytes": 753,
+      "sha256": "3fae6d00ec77c788b49c61952074c1336fac6843fa66ec02edd0c93fee2deece"
+    },
+    {
+      "path": "start-devspace-public.ps1",
+      "bytes": 13808,
+      "sha256": "be653d2931f8dcbd24bca6e12e3c29bba26cf688cf4bfb4055c4cfcd1197fce8"
+    },
+    {
+      "path": "tsconfig.build.json",
+      "bytes": 85,
+      "sha256": "ef3604ce6e9a84c127e175737193e141207fd78752e6b678c267bba2acbb41da"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 351,
+      "sha256": "685c2649e7db887d9a4cfce65ddcf657c09d97d6fcd36c842d756591d8db24c2"
+    },
+    {
+      "path": ".agents/plan/local-agent-profiles-and-cli-plan.md",
+      "bytes": 2235,
+      "sha256": "ec3162fb38722ed4c2d54f87cbf20aca0c1e52a062c602d457d135982c376c76"
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "bytes": 66,
+      "sha256": "debccfd25dc670c123b7c594b2f3a7f482f97b8e861fc29ba72e21747cb2d083"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 928,
+      "sha256": "1e0e7c0fd8303efd1dc319a7c707b177e102a2553ef8b9dff4ba9d9995d8b447"
+    },
+    {
+      "path": "examples/docs/assets/devspace-logo-light.png",
+      "bytes": 66092,
+      "sha256": "9c8e53a8949622aaac9eabe3338a6c0a3e9d52cd0d87ac765c7fa9a96987ff47"
+    },
+    {
+      "path": "examples/docs/assets/devspace-screenshot.png",
+      "bytes": 968459,
+      "sha256": "009236e54e449dc2de406d1fa06077d982943d913a70e262287c887ff669688d"
+    },
+    {
+      "path": "scripts/dev-server.mjs",
+      "bytes": 2764,
+      "sha256": "78cf04ce62fa695aae9ce5c02aaad28dc47e23ecb046d92f8eb99fb9b91ac6af"
+    },
+    {
+      "path": "scripts/fix-node-pty-permissions.mjs",
+      "bytes": 588,
+      "sha256": "f3ce32445f9531eb02ccc87e2aaeaa7f03604ab252f87ae971bdaf259a570a91"
+    },
+    {
+      "path": "src/apply-patch.ts",
+      "bytes": 1030,
+      "sha256": "f5fa48bf484635f6cda3c15554bc67ebcc77c1aae330219277ee14edd56af0e9"
+    },
+    {
+      "path": "src/cli.ts",
+      "bytes": 1081,
+      "sha256": "4acde92aea8be68f85ddd2caf1465cc8cd5441e2624e563406c6487d831d65fc"
+    },
+    {
+      "path": "src/config.ts",
+      "bytes": 1104,
+      "sha256": "e84bb168d7c042fc7e63f194f47f6bbd8de89227f990de80d7d853c47dbdb679"
+    },
+    {
+      "path": "src/git.ts",
+      "bytes": 291,
+      "sha256": "3cc4cb7ceb5e63a9d086dcd6b7934044d16597cde6ce49eb47a24cb9d350c243"
+    },
+    {
+      "path": "src/logger.ts",
+      "bytes": 2772,
+      "sha256": "cb18c0ec755973f0c5cf44cf9bc8cb62409dc6b245c0827407b97332686fe7ed"
+    },
+    {
+      "path": "src/pi-tools.ts",
+      "bytes": 3726,
+      "sha256": "e7d7d21a680d03af30a103dd957f439b6a75d09caa1512529d515c11c9b51587"
+    },
+    {
+      "path": "src/process-platform.test.ts",
+      "bytes": 1740,
+      "sha256": "e96e04858d267326635ca9388c10571e45835f686e2d5df18a560c99b7dc6b8c"
+    },
+    {
+      "path": "src/process-platform.ts",
+      "bytes": 2185,
+      "sha256": "c6cadcb01d674aa79b6fc422cba419dbfc117faa63a0f304e803081d55a0512a"
+    },
+    {
+      "path": "src/server-shutdown.test.ts",
+      "bytes": 2225,
+      "sha256": "b9953d9747abb92a94bf0d4ea384c524756c767fb3999d432f50c37e51ea3e78"
+    },
+    {
+      "path": "src/server-shutdown.ts",
+      "bytes": 442,
+      "sha256": "505521f64ec8023504cbfe00b99bc082d56b5c5c10efca3de46e4eee94e95557"
+    },
+    {
+      "path": "src/server.ts",
+      "bytes": 16871,
+      "sha256": "4c78a04787bcb57361b824a119a501316e6e4dd463d9d2e219bc461e4bdca8f9"
+    },
+    {
+      "path": "src/show-changes.ts",
+      "bytes": 1893,
+      "sha256": "a5652df8b2c375ce5cbbf05f37bcd7c1f8ff4b35187e51e4f10d60db449772a0"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "bytes": 75011,
+      "sha256": "c09f75d5bec063ad02718ddfdb650ec95234cc7364e7b8a71bda087dfb7f10ca"
+    }
+  ]
+}

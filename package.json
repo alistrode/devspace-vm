@@ -1,0 +1,9 @@
+{
+  "name": "@waishnav/devspace", "version": "1.0.5", "description": "Owner-authenticated unrestricted local MCP tools.", "type": "module", "main": "dist/server.js",
+  "engines": { "node": ">=22.19 <27" }, "bin": { "devspace": "dist/cli.js" },
+  "files": ["dist", "README.md"], "publishConfig": { "access": "public" },
+  "scripts": { "clean": "node -e \"require('node:fs').rmSync('dist', { recursive: true, force: true })\"", "build": "npm run clean && tsc -p tsconfig.build.json", "dev": "node scripts/dev-server.mjs", "start": "node dist/cli.js serve", "test": "tsx src/process-platform.test.ts && tsx src/server-shutdown.test.ts", "typecheck": "tsc -p tsconfig.json --noEmit" },
+  "license": "MIT",
+  "dependencies": { "@earendil-works/pi-coding-agent": "^0.80.3", "@modelcontextprotocol/sdk": "^1.29.0", "express": "^5.2.1" },
+  "devDependencies": { "@types/express": "^5.0.6", "@types/node": "^25.9.1", "tsx": "^4.22.3", "typescript": "^6.0.3" }
+}
